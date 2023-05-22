@@ -1,0 +1,19 @@
+.footer-icons {
+  font-size: 15px;
+  color: #3d3c3c;
+  margin-right: 15px;
+}
+
+.footer-text {
+  color: #3d3c3c;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 4px;
+}
+
+.footer-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

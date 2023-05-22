@@ -1,0 +1,142 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: #e4e7eb solid 1px;
+}
+.header-logo {
+  width: 100px;
+}
+
+.header-ul {
+  display: flex;
+  margin: 10px;
+}
+.header-details-container {
+  display: flex;
+}
+.header-li {
+  list-style-type: none;
+  margin-right: 25px;
+  color: #0284c7;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  font-size: 15px;
+  padding-top: 0px;
+  font-weight: 500;
+}
+.logout-button {
+  background-color: #0284c7;
+  margin-top: 6px;
+  width: 60px;
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+}
+
+/*  mobile view */
+
+@media screen and (max-width: 768px) {
+  .header-logo {
+    width: 80px;
+  }
+
+  .header-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-details-container {
+    display: none;
+  }
+
+  .menu-details-div {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    width: 100%;
+    padding-left: 0px;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+
+  .menu-details-ul {
+    display: flex;
+    background-color: transparent;
+    padding-left: 0px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+
+  .menu-details-li {
+    list-style-type: none;
+    padding-bottom: 0px;
+    margin-right: 20px;
+  }
+  .menu-details-heading {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 500;
+    color: #0284c7;
+  }
+
+  .menu-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+
+  .logout-button-mobile {
+    background-color: #0284c7;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .close-button-mobile {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .header-sub-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .menu-container {
+    display: none;
+  }
+
+  .header-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

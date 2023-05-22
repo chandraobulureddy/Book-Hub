@@ -1,0 +1,141 @@
+.book-each-details-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.book-each-sub-container {
+  display: flex;
+  justify-content: center;
+}
+.book-each-card {
+  width: 80%;
+  background-color: #ffffff;
+  margin-top: 30px;
+  padding: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+}
+.book-each-author-img-div {
+  display: flex;
+  justify-content: center;
+}
+.book-each-author-card {
+  background-color: transparent;
+  width: 60%;
+  display: flex;
+}
+.book-each-img {
+  width: 200px;
+  height: 260px;
+  border-radius: 10px;
+}
+.book-each-author-details {
+  padding: 25px;
+}
+
+.book-each-title {
+  color: #334155;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.book-each-author-name {
+  color: #475569;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.book-each-rating-span {
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.book-each-status-span {
+  margin-left: 10px;
+  color: #0284c7;
+}
+
+.hr {
+  border: 1px solid #94a3b8;
+  margin-top: 20px;
+}
+
+.book-each-about-div {
+  margin-top: 25px;
+}
+
+.book-each-about-author-header {
+  color: #334155;
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.book-each-about-author {
+  color: #475569;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.footer-section {
+  margin-top: 30px;
+}
+
+.book-failure-each-div-one {
+  height: 80vh;
+}
+
+/* mobile view */
+
+@media screen and (max-width: 768px) {
+  .book-each-sub-container {
+    padding: 0px;
+  }
+
+  .book-each-author-card {
+    flex-direction: column;
+  }
+  .book-each-card {
+    background-color: transparent;
+    padding: 0px;
+    margin-top: 15px;
+  }
+  .book-each-author-card {
+    width: 75%;
+  }
+  .hr {
+    margin: 0px;
+    padding: 0px;
+  }
+  .book-each-author-details {
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    width: 90%;
+  }
+  .book-each-title {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .book-each-author-name {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .book-each-about-author-header {
+    font-size: 17px;
+  }
+  .book-each-about-author {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
